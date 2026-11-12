@@ -1,0 +1,16 @@
+var/
+__pycache__/
+*.pyc
+.pipeline-cache/
+pipeline/**/*-session.json
+pipeline/**/pre-polish-*.bak
+pipeline/**/tests/tmp/
+
+# Local run artifacts; final selected evidence is explicitly tracked.
+pipeline/**/*.log
+pipeline/**/e2e-results*.json
+pipeline/**/screens/
+pipeline/**/probe-*.txt
+
+pipeline/**/research/browser-profile/
+tests/tmp/

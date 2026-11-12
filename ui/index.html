@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homecoming Launcher</title>
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="viewport">
+    <main id="stage" aria-label="Homecoming Launcher">
+      <section id="feature" class="zone">
+        <div id="art" class="abs" aria-hidden="true"></div>
+        <p id="kicker" class="abs kicker">LATEST NEWS</p>
+        <span id="news-badge" class="abs news-badge" hidden></span>
+        <h1 id="hero-title" class="abs hero-title"></h1>
+        <p id="hero-subtitle" class="abs hero-subtitle"></p>
+        <p id="hero-description" class="abs hero-description"></p>
+        <button id="hero-cta" class="abs hero-cta" type="button" data-action="article" data-id="">
+          <span id="hero-cta-label">READ MORE</span><span class="arrow" aria-hidden="true">→</span>
+        </button>
+        <p id="hero-date" class="abs hero-date"></p>
+        <div id="slide-marks" class="abs slide-marks" role="group" aria-label="Featured news slides" hidden>
+          <button class="slide-mark slide-1" type="button" data-slide="0" aria-label="Show news 1" aria-current="true"></button>
+          <button class="slide-mark slide-2" type="button" data-slide="1" aria-label="Show news 2" aria-current="false" hidden></button>
+          <button class="slide-mark slide-3" type="button" data-slide="2" aria-label="Show news 3" aria-current="false" hidden></button>
+        </div>
+      </section>
+
+      <section id="cards" class="zone" aria-label="More news">
+        <button class="abs card card-1" type="button" data-action="article" data-id="" hidden>
+          <img class="card-img" alt="" src="">
+          <span class="card-body">
+            <span class="card-kicker"></span>
+            <span class="card-title"></span>
+            <span class="card-text"></span>
+          </span>
+          <svg class="card-chevron" viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2l8 8-8 8" /></svg>
+        </button>
+        <button class="abs card card-2" type="button" data-action="article" data-id="" hidden>
+          <img class="card-img" alt="" src="">
+          <span class="card-body">
+            <span class="card-kicker"></span>
+            <span class="card-title"></span>
+            <span class="card-text"></span>
+          </span>
+          <svg class="card-chevron" viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2l8 8-8 8" /></svg>
+        </button>
+        <button class="abs card card-3" type="button" data-action="article" data-id="" hidden>
+          <img class="card-img" alt="" src="">
+          <span class="card-body">
+            <span class="card-kicker"></span>
+            <span class="card-title"></span>
+            <span class="card-text"></span>
+          </span>
+          <svg class="card-chevron" viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2l8 8-8 8" /></svg>
+        </button>
+        <button class="abs card card-4" type="button" data-action="article" data-id="" hidden>
+          <img class="card-img" alt="" src="">
+          <span class="card-body">
+            <span class="card-kicker"></span>
+            <span class="card-title"></span>
+            <span class="card-text"></span>
+          </span>
+          <svg class="card-chevron" viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2l8 8-8 8" /></svg>
+        </button>
+      </section>
+
+      <section id="rail" class="zone">
+        <svg class="rail-shape" aria-hidden="true" viewBox="0 0 500 962" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="rail-surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2d"/><stop offset=".42" stop-color="#040d18"/><stop offset="1" stop-color="#01080f"/></linearGradient>
+            <radialGradient id="logo-light"><stop stop-color="#1c466c" stop-opacity=".48"/><stop offset="1" stop-color="#0c2842" stop-opacity="0"/></radialGradient>
+            <linearGradient id="rail-upper-stroke" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#347198"/><stop offset=".28" stop-color="#4a9cca"/><stop offset=".43" stop-color="#214b70" stop-opacity=".15"/><stop offset="1" stop-opacity="0"/></linearGradient>
+            <linearGradient id="rail-lower-stroke" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#142c40" stop-opacity="0"/><stop offset=".43" stop-color="#2b8fbd" stop-opacity=".05"/><stop offset=".64" stop-color="#389cc6" stop-opacity=".8"/><stop offset=".84" stop-color="#183951" stop-opacity="0"/><stop offset="1" stop-opacity="0"/></linearGradient>
+            <linearGradient id="rail-band-light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#12334f" stop-opacity=".55"/><stop offset=".3" stop-color="#22445e" stop-opacity=".3"/><stop offset=".63" stop-color="#0c3859" stop-opacity=".65"/><stop offset=".85" stop-color="#071526" stop-opacity="0"/></linearGradient>
+            <linearGradient id="server-bed" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#06121e" stop-opacity=".75"/><stop offset=".92" stop-color="#06121e" stop-opacity=".7"/><stop offset="1" stop-color="#06121e" stop-opacity="0"/></linearGradient>
+            <linearGradient id="rail-lower-band" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#12314c" stop-opacity="0"/><stop offset=".38" stop-color="#12314c" stop-opacity=".1"/><stop offset=".63" stop-color="#0b2a43" stop-opacity=".6"/><stop offset=".84" stop-color="#06121e" stop-opacity="0"/></linearGradient>
+            <linearGradient id="server-surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061a29" stop-opacity=".7"/><stop offset=".6" stop-color="#04121f" stop-opacity=".3"/><stop offset="1" stop-color="#081a27" stop-opacity=".55"/></linearGradient>
+            <linearGradient id="corner-light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24648b" stop-opacity=".6"/><stop offset="1" stop-color="#102f4c" stop-opacity="0"/></linearGradient>
+            <filter id="pin-bloom" x="-800%" y="-200%" width="1700%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+            <filter id="edge-bloom" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+          </defs>
+          <path fill="url(#server-bed)" d="M16 489H302V938H16Z"/>
+          <path fill="url(#rail-surface)" d="M0 0H470L166 938H0Z" opacity=".8"/>
+          <ellipse fill="url(#logo-light)" cx="212" cy="160" rx="242" ry="220"/>
+          <path fill="url(#server-surface)" d="M34 489H312L168 938H16V796L34 736Z"/>
+          <path fill="url(#corner-light)" d="M0 0H34L0 99ZM34 0H60L0 181V99Z"/>
+          <path fill="none" stroke="url(#rail-upper-stroke)" d="M34 0L0 99M60 0L0 181M470 0L166 938"/>
+          <path fill="url(#rail-band-light)" d="M452 0H470L166 938H148Z"/>
+          <path fill="url(#rail-lower-band)" d="M470 0H493L191 938H166Z"/>
+          <path fill="none" stroke="url(#rail-lower-stroke)" stroke-width="1.3" d="M493 0L191 938"/>
+          <path fill="none" stroke="url(#rail-lower-stroke)" stroke-width="1" opacity=".65" d="M468 0L166 938"/>
+          <path fill="none" stroke="#fa6725" stroke-width="5" opacity=".38" filter="url(#edge-bloom)" d="M34 263H393L354 364"/>
+          <ellipse fill="#6ee1ff" cx="34" cy="429" rx="2" ry="9" opacity=".8" filter="url(#pin-bloom)"/>
+        </svg>
+        <img id="logo" class="abs logo" alt="City of Heroes Homecoming" src="">
+        <button id="play" class="abs play" type="button" data-action="play">
+          <svg class="btn-outline" viewBox="0 0 360 104" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="play-outline-light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe6a0"/><stop offset=".42" stop-color="#ee9b42"/><stop offset="1" stop-color="#eb451b"/></linearGradient></defs><polygon class="play-edge" points="0.5,0.5 359.3,0.5 319.9,103.5 0.5,103.5" /><polyline class="play-hi" points=".8,85 .8,.8 359,.8" /></svg>
+          <span class="play-tri" aria-hidden="true"></span>
+          <span class="play-title" id="play-title">PLAY</span>
+          <span class="play-sub">HOMECOMING</span>
+          <svg class="play-chevron" viewBox="0 0 14 28" aria-hidden="true"><path d="M3 7l8 7-8 7" /></svg>
+          <span class="button-progress" hidden>
+            <span class="button-progress-identity"></span>
+            <span class="button-progress-status"></span>
+            <span class="button-progress-detail"></span>
+            <span class="button-progress-track" aria-hidden="true"><span class="button-progress-fill"></span></span>
+          </span>
+        </button>
+        <p id="status-line" class="abs status-line" role="status" aria-live="polite" hidden></p>
+        <button id="beta" class="abs beta" type="button" data-action="beta">
+          <svg class="btn-outline" viewBox="0 0 317 97" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="beta-outline-light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4a8db8"/><stop offset=".55" stop-color="#244d6d"/><stop offset="1" stop-color="#235779"/></linearGradient><linearGradient id="beta-edge-flare" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5cbfef" stop-opacity="0"/><stop offset=".52" stop-color="#b5efff"/><stop offset="1" stop-color="#52b7e8" stop-opacity="0"/></linearGradient></defs><polygon class="beta-edge" points="0.5,0.5 316.3,0.5 282.0,96.5 0.5,96.5" /><path class="beta-hi" d="M.8 27V72"/></svg>
+          <span class="beta-title">OPEN BETA</span>
+          <span class="beta-sub" id="beta-sub">Checking installation…</span>
+          <svg class="beta-download" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16" /></svg>
+          <span class="button-progress" hidden>
+            <span class="button-progress-identity"></span>
+            <span class="button-progress-status"></span>
+            <span class="button-progress-detail"></span>
+            <span class="button-progress-track" aria-hidden="true"><span class="button-progress-fill"></span></span>
+          </span>
+        </button>
+        <section id="shards" class="abs shards" aria-labelledby="shards-title">
+          <h2 id="shards-title" class="shards-title">SERVER STATUS</h2>
+          <ul id="shard-list" class="shard-list" tabindex="0"></ul>
+        </section>
+        <img id="brand-img" class="abs brand brand-img" alt="Homecoming: community, heroes, forever" src="" hidden>
+      </section>
+
+      <header id="topbar" class="zone">
+        <nav class="nav" aria-label="Primary">
+          <button class="navlink nav-home" type="button" data-action="home" aria-current="page">HOME</button>
+          <button class="navlink nav-news" type="button" data-action="news">NEWS</button>
+          <button class="navlink nav-forums" type="button" data-action="forums">FORUMS</button>
+          <button class="navlink nav-discord" type="button" data-action="discord">DISCORD</button>
+          <button class="navlink nav-support" type="button" data-action="support">SUPPORT</button>
+          <button class="navlink nav-screenshots" type="button" data-action="screenshots">SCREENSHOTS</button>
+          <span class="home-underline" aria-hidden="true"></span>
+        </nav>
+        <div class="drag-zone" aria-hidden="true"></div>
+        <button id="capture-studio" class="winbtn capture-studio" type="button" data-action="capture-studio" aria-label="Open COH Capture Studio" title="Capture Studio">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h5l2-3h4l2 3h5v13H3z"/><circle cx="12" cy="13" r="4"/></svg>
+        </button>
+        <button id="gear" class="winbtn gear" type="button" aria-label="Launcher settings" aria-haspopup="dialog">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M12 2.5l1.6 2.6 3-.7.7 3 2.6 1.6-1.4 2.7 1.4 2.7-2.6 1.6-.7 3-3-.7L12 21.5l-1.6-2.6-3 .7-.7-3-2.6-1.6 1.4-2.7-1.4-2.7 2.6-1.6.7-3 3 .7z" /></svg>
+        </button>
+        <button id="minimize" class="winbtn minimize" type="button" data-action="minimize" aria-label="Minimize window">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16" /></svg>
+        </button>
+        <button id="close" class="winbtn close" type="button" data-action="close" aria-label="Close launcher">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" /></svg>
+        </button>
+      </header>
+
+      <div id="toast" class="abs toast" role="status" aria-live="polite" data-tone="info" hidden></div>
+    </main>
+
+    <div id="modal-layer" class="modal-layer" hidden>
+      <div id="confirm" class="dialog confirm" role="dialog" aria-modal="true" aria-labelledby="confirm-title" hidden>
+        <h2 id="confirm-title" class="dialog-title"></h2>
+        <p id="confirm-body" class="dialog-body"></p>
+        <p id="confirm-path" class="dialog-path"></p>
+        <div class="dialog-actions">
+          <button id="confirm-secondary" type="button" class="btn">Cancel</button>
+          <button id="confirm-primary" type="button" class="btn primary">Install</button>
+        </div>
+      </div>
+
+      <div id="settings" class="dialog settings" role="dialog" aria-modal="true" aria-labelledby="settings-title" hidden>
+        <header class="settings-head">
+          <h2 id="settings-title" class="dialog-title">Launcher settings</h2>
+          <button id="settings-close" type="button" class="settings-x" data-action="settings-cancel" aria-label="Close settings">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" /></svg>
+          </button>
+        </header>
+        <p id="preview-note" class="preview-note" hidden>Preview mode — game actions are disabled.</p>
+        <div class="tabs" role="tablist">
+          <button id="tab-general" type="button" class="tab" role="tab" data-tab="general" aria-controls="panel-general">General</button>
+          <button id="tab-addons" type="button" class="tab" role="tab" data-tab="addons" aria-controls="panel-addons">Add-ons</button>
+        </div>
+        <form id="settings-form" novalidate>
+          <div class="settings-body" id="settings-body">
+            <section id="panel-general" class="panel" role="tabpanel" aria-labelledby="tab-general">
+              <div class="field" data-field="gameRoot">
+                <label for="f-gameRoot">Game installation</label>
+                <div class="field-row">
+                  <input id="f-gameRoot" name="gameRoot" type="text" autocomplete="off" spellcheck="false">
+                  <button type="button" class="btn choose" data-action="choose-game-root">Choose</button>
+                </div>
+                <p class="field-error" id="e-gameRoot"></p>
+              </div>
+              <div class="field" data-field="protonPath">
+                <label for="f-protonPath">Proton executable</label>
+                <div class="field-row">
+                  <input id="f-protonPath" name="protonPath" type="text" autocomplete="off" spellcheck="false">
+                  <button type="button" class="btn choose" data-action="choose-proton">Choose</button>
+                </div>
+                <p class="field-error" id="e-protonPath"></p>
+              </div>
+              <div class="field" data-field="compatPrefix">
+                <label for="f-compatPrefix">Compatibility prefix</label>
+                <div class="field-row">
+                  <input id="f-compatPrefix" name="compatPrefix" type="text" autocomplete="off" spellcheck="false">
+                  <button type="button" class="btn choose" data-action="choose-prefix">Choose</button>
+                </div>
+                <p class="field-error" id="e-compatPrefix"></p>
+              </div>
+              <div class="field" data-field="skinId">
+                <label for="f-skinId">Skin</label>
+                <select id="f-skinId" name="skinId"></select>
+                <ul class="skin-errors" id="skin-errors"></ul>
+              </div>
+              <div class="field" data-field="scale">
+                <label for="f-scale">Window scale</label>
+                <select id="f-scale" name="scale">
+                  <option value="0.75">0.75</option>
+                  <option value="1">1</option>
+                  <option value="1.25">1.25</option>
+                  <option value="1.5">1.5</option>
+                </select>
+                <p class="field-error" id="e-scale"></p>
+              </div>
+              <div class="info">
+                <h3 class="info-title">Installation</h3>
+                <p class="info-row"><span>Version</span><span id="f-version">Checking installation…</span></p>
+                <p class="info-row"><span>Live news</span><span>Live news is available on the official website.</span></p>
+                <p class="info-missing" id="missing-note" hidden>No Homecoming installation was found at this game folder. Set the game folder above, then Save.</p>
+              </div>
+              <div class="dialog-actions split">
+                <button id="open-official" type="button" class="btn" data-action="open-official">Open official launcher</button>
+                <button id="open-news" type="button" class="btn" data-action="news">Open news</button>
+              </div>
+            </section>
+            <section id="panel-addons" class="panel" role="tabpanel" aria-labelledby="tab-addons" hidden>
+              <h3 class="section-title">Game watch</h3>
+              <div class="switch-row"><label for="f-showWatch">Show watch</label><input id="f-showWatch" type="checkbox" class="switch" role="switch"></div>
+              <div class="switch-row has-help">
+                <label for="f-startAutomatically">Start automatically</label><input id="f-startAutomatically" type="checkbox" class="switch" role="switch">
+                <p class="help">Turns the watch on when you press Play.</p>
+              </div>
+              <ul class="messages" id="watch-messages"></ul>
+              <div class="switch-row"><label for="f-alertChime">Alert chime</label><input id="f-alertChime" type="checkbox" class="switch" role="switch"></div>
+              <div class="switch-row"><label for="f-speakAlerts">Speak alerts</label><input id="f-speakAlerts" type="checkbox" class="switch" role="switch"></div>
+              <div class="form-row"><label for="f-key">Fish Audio</label><input id="f-key" type="password" autocomplete="off" spellcheck="false" aria-label="Fish Audio key"></div>
+              <div class="form-row"><label for="f-voiceId">Voice</label><select id="f-voiceId"></select></div>
+              <p class="message key-line" id="key-line" hidden></p>
+              <p class="message speak-line" id="speak-line" hidden></p>
+            </section>
+          </div>
+          <p class="field-error settings-error" id="settings-error" role="alert"></p>
+          <div class="dialog-actions settings-foot">
+            <button id="settings-cancel" type="button" class="btn" data-action="settings-cancel">Cancel</button>
+            <button id="settings-save" type="submit" class="btn primary">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

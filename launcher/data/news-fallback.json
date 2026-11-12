@@ -1,0 +1,120 @@
+[
+    {
+        "headline": "Issue 28: Legacy, Page 4 is now live!",
+        "headlinelink": "https:\/\/forums.homecomingservers.com\/patch-notes\/issue-28\/page-4\/issue-28-page-4-r47\/",
+        "content": [
+            {
+                "fontsize": 11,
+                "fontstyle": "Bold",
+                "color": "241 196 15",
+                "image": "https:\/\/forums.homecomingservers.com\/uploads\/monthly_2026_07\/i28p4banner.png.a217857b6b80479f21f2ade07f6e1942.png",
+                "link": "https:\/\/forums.homecomingservers.com\/patch-notes\/issue-28\/page-4\/issue-28-page-4-r47\/",
+                "text": "We're excited to announce that Issue 28: Legacy, Page 4 is now live!"
+            },
+            " ",
+            "Marquee Features Include:",
+            "\u2022 Citadel Task Force Revamp - Industrial Evolution!",
+            "\u2022 New Arena Mode - PvPvE Onslaught!",
+            "\u2022 New Kallisti Wharf Story Arc - Prime Time Sublime!",
+            "\u2022 New Powersets - Light Affinity and Sonic Aura!",
+            " ",
+            "... and so, so much more!",
+            " ",
+            {
+                "text": "Check out the Patch Notes for additional information!",
+                "link": "https:\/\/forums.homecomingservers.com\/patch-notes\/issue-28\/page-4\/issue-28-page-4-r47\/"
+            }
+        ],
+        "dateline": "October  6, 2026"
+    },
+    {
+        "headline": "2026 Halloween Event is now Live!",
+        "headlinelink": "https:\/\/forums.homecomingservers.com\/topic\/65858-2026-halloween-event-is-now-live\/",
+        "content": [
+            {
+                "fontsize": 11,
+                "fontstyle": "Bold",
+                "color": "241 196 15",
+                "text": "Available from October 6th until November 3rd"
+            },
+            " ",
+            "Enjoy the following activities -",
+            "\u2022 Trick or Treating",
+            "\u2022 Giant Monster Hunting",
+            "\u2022 The Zombie Apocalypse",
+            "\u2022 Supernatural Activity across most zones",
+            "\u2022 Dr. Kane's House of Horror",
+            "\u2022 Seasonal Event Badges",
+            " ",
+            {
+                "text": "...check out the wiki page for details!",
+                "link": "https:\/\/homecoming.wiki\/wiki\/Category:Halloween_Event"
+            }
+        ],
+        "dateline": "October  6, 2026"
+    },
+    {
+        "headline": "NEW Dev Diary - City of Cowards: Why do enemies run?",
+        "content": [
+            {
+                "text": "Issue 28, Page 4 is just around the corner and entering its final stages of testing on Open Beta!"
+            },
+            "",
+            {
+                "text": "Prepare for its future release with Homecoming Developer Dellian\u2019s behind-the-scenes look at an arcane aspect of the City of Heroes code."
+            },
+            "",
+            {
+                "text": "Click here to read the latest Dev Diary - City of Cowards: Why do enemies run?",
+                "link": "https:\/\/forums.homecomingservers.com\/topic\/65806-dev-diary-city-of-cowards-why-do-enemies-run\/",
+                "color": "255 200 100"
+            }
+        ],
+        "dateline": "October  3, 2026"
+    },
+    {
+        "headline": "Issue 28: Legacy, Page 4 is now on Open Beta!",
+        "headlinelink": "https:\/\/forums.homecomingservers.com\/topic\/65308-open-beta-patch-notes-for-august-20th-2026-issue-28-page-4\/",
+        "content": [
+            {
+                "fontsize": 11,
+                "fontstyle": "Bold",
+                "color": "241 196 15",
+                "image": "http:\/\/cdn-na1.homecomingservers.com\/hc\/newsfeed\/issue28p1.jpg",
+                "link": "https:\/\/forums.homecomingservers.com\/topic\/65308-open-beta-patch-notes-for-august-20th-2026-issue-28-page-4\/",
+                "text": "We're excited to announce that Issue 28: Legacy, Page 4 is finally available for testing on Open Beta!"
+            },
+            " ",
+            "Marquee Features Include:",
+            "\u2022 Citadel Task Force Revamp - Industrial Evolution!",
+            "\u2022 New Arena Mode - PvPvE Onslaught!",
+            "\u2022 New Kallisti Wharf Story Arc - Prime Time Sublime!",
+            "\u2022 New Powersets - Light Affinity and Sonic Aura!",
+            " ",
+            "... and so, so much more!",
+            " ",
+            {
+                "text": "Check out the Patch Notes for additional information!",
+                "link": "https:\/\/forums.homecomingservers.com\/topic\/65308-open-beta-patch-notes-for-august-20th-2026-issue-28-page-4\/"
+            }
+        ],
+        "dateline": "August 20, 2026"
+    },
+    {
+        "headline": "Patch Notes for July 7th",
+        "headlinelink": "https:\/\/forums.homecomingservers.com\/patch-notes\/issue-28\/page-3\/july-7-update-r46\/",
+        "content": [
+            "Today's update addresses a couple bugs.",
+            "",
+            {
+                "list": [
+                    "Fix bug in Psionic Armor causing powers to disappear when leveling until respec",
+                    "Fix Obscure Sustenance recharge time being longer for some ATs (now 60 seconds for everybody)",
+                    "Fix Willpower Resurgence sometimes not respecting global recharge buffs",
+                    "Fix Scrapper ATOs not modifying the crit chance of Lightning Rod's inner damage"
+                ]
+            }
+        ],
+        "dateline": "July  7, 2026"
+    }
+]

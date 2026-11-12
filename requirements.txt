@@ -1,0 +1,4 @@
+# Runtime: Qt WebEngine and WebChannel bridge.
+PySide6==6.11.2
+# Asset preparation only (trimming and checks). Not imported by the launcher at runtime.
+Pillow==12.3.0

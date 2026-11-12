@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "homecoming",
+  "name": "Homecoming",
+  "tokens": {
+    "base": "#01060c",
+    "rail": "#030c17",
+    "card": "#061626",
+    "border": "#266082",
+    "text": "#f5f7fa",
+    "muted": "#9bb6d0",
+    "accent": "#ff7b29",
+    "accentDeep": "#9d2d18",
+    "online": "#8fed00"
+  },
+  "assets": {
+    "background": "assets/background.png",
+    "logo": "assets/logo.png",
+    "brand": "assets/brand.png",
+    "feature1": "assets/feature1.png",
+    "feature2": "assets/feature2.png",
+    "feature3": "assets/feature3.png",
+    "feature4": "assets/feature4.png"
+  }
+}
